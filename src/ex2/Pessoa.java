@@ -1,4 +1,4 @@
-package ex1;
+package ex2;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -35,10 +35,10 @@ public class Pessoa {
         return nomePessoa;
     }
 
-    public void ajustaDataDeNascimento(int x, int y, int z) {
-        this.dia = x;
-        this.mes = y;
-        this.ano = z;
+    public Pessoa(int dia, int mes, int ano) {
+        this.dia = dia;
+        this.mes = mes;
+        this.ano = ano;
     }
 
     public int getIdade() {
